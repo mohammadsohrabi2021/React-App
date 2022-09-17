@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from "./Navbar.module.css"
+import styles from "./Navbar.module.css";
+import logo from "../image/dan.png";
+
 const Navbar = () => {
     return (
        <header className={styles.header}>
@@ -10,8 +12,8 @@ const Navbar = () => {
                  <li>About Us</li>
               </ul>
            </div>
-           <div className={styles.logo}>
-             <img src=''/>
+           <div className={styles.Logo}>
+             <img className={styles.logo} src={logo} alt="logo"/>
            </div>
        </header>
     );
