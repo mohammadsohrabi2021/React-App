@@ -21,3 +21,6 @@
 .container input::placeholder{
     font-size: 1rem;
 }
+.container span{
+    display: flex;
+}
