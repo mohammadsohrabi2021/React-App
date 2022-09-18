@@ -23,3 +23,21 @@
     color: #fff;
     background-color: rgb(10, 145, 46);
 }
+.counter{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid silver;
+}
+.counter img{
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+.counter span{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
